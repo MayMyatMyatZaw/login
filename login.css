@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Rubik:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.3;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    width: 25%;
+    background-color: #effbff;
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px #76919a;
+}
+
+.container .header{
+    text-align: center;
+    padding: 4px;
+}
+
+/* .form{
+    
+} */
+
+.form label{
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form input{
+    width: 100%;
+    padding: 2.5%;
+    border-radius: 5px;
+    border: 1px solid #c1b8b8;
+}
+
+.form input:focus{
+    outline: 0;
+}
+
+.form .inputname{
+    margin-bottom: 3%;
+}
+
+.forget-password{
+    color: #0000ff;
+    padding-bottom: 5px;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.loginbtn{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2%;
+    color: #fff;
+    background-color: #0984ed;
+    border: none;
+    border-radius: 5px;
+}
+
+.form .or{
+    text-align: center;
+    margin: 2%;
+}
+
+/* .forget-password{
+    color: ;
+} */
+
+.form .main-button{
+    border: 1px solid #000;
+    margin-bottom: 3.5%;
+    padding: 2.5%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.form .main-button img{
+    width: 6%;
+    height: 6%;
+    margin-right: 5px;
+}
+
+.form .main-button .fa-facebook{
+    color: #0a82ec;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.form .main-button .fa-apple{
+    color: #a19191;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.form .main-button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.sing-up-color{
+    color:#0000ff ;
+}
+
+.line{
+    border-bottom: 1px solid #c1b8b8;
+    margin: 5% 0 3% 0;
+}
+
+.sigup-bottom{
+    font-size: 12px;
+}
+
+.sigup-bottom .g-privacy{
+    color: #0000ff;
+}
+
